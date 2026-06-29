@@ -252,3 +252,9 @@
   background-color: #ff8f00 !important;
   color: #ffffff !important;
 }
+
+/* Counter Section */
+
+.bg-white .text-warning i {
+  color: #ff8f00 !important;
+}
