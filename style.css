@@ -382,3 +382,32 @@
 .custom-range::-ms-thumb {
   background: #ff8f00 !important;
 }
+
+.btn-add-orange-shop {
+  border-color: #ffcc00 !important;
+  color: #ff8f00 !important;
+  font-weight: 600;
+  transition: 0.3s;
+}
+.btn-add-orange-shop:hover {
+  background-color: #ff8f00 !important;
+  border-color: #ff8f00 !important;
+  color: white !important;
+}
+
+.custom-shop-pagination .page-link {
+  width: 45px;
+  height: 45px;
+  border: 1px solid #ffcc00;
+  color: #45595b;
+  font-weight: 600;
+  background-color: #f4f6f8;
+  transition: 0.3s ease;
+}
+
+.custom-shop-pagination .page-item.active .page-link,
+.custom-shop-pagination .page-link:hover {
+  background-color: #ff8f00 !important;
+  border-color: #ff8f00 !important;
+  color: white !important;
+}
