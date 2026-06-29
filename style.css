@@ -340,3 +340,25 @@
   color: #ff8f00;
   padding-left: 5px;
 }
+
+/* SHOP PAGE */
+.page-header {
+  background-image: url("image/food-bg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.text-orange-light {
+  color: #ff8f00 !important;
+  font-weight: 500;
+  transition: 0.2s;
+}
+
+.text-orange-light:hover {
+  color: #ffffff !important;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+  color: rgba(255, 255, 255, 0.6) !important;
+}
