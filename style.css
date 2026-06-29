@@ -362,3 +362,23 @@
 .breadcrumb-item + .breadcrumb-item::before {
   color: rgba(255, 255, 255, 0.6) !important;
 }
+
+/* SideBar */
+
+.shop-categories-list li a {
+  transition: 0.2s ease-in-out;
+}
+.shop-categories-list li a:hover {
+  color: #ff8f00 !important;
+  padding-left: 5px;
+}
+
+.custom-range::-webkit-slider-thumb {
+  background: #ff8f00 !important;
+}
+.custom-range::-moz-range-thumb {
+  background: #ff8f00 !important;
+}
+.custom-range::-ms-thumb {
+  background: #ff8f00 !important;
+}
