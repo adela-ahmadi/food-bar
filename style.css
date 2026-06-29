@@ -258,3 +258,29 @@
 .bg-white .text-warning i {
   color: #ff8f00 !important;
 }
+
+/* testimonial section */
+
+.testimonial-item {
+  background-color: #f4f6f8 !important;
+}
+
+.custom-carousel-btn {
+  border-color: #ff8f00 !important;
+  color: #ff8f00 !important;
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s;
+}
+
+.custom-carousel-btn:hover {
+  background-color: #ff8f00 !important;
+  color: white !important;
+}
+
+.border-warning-subtle {
+  border-color: #ffcc00 !important;
+}
