@@ -1,0 +1,41 @@
+* {
+  font-family: "Merriweather Sans", sans-serif;
+}
+.navbar-brand {
+  color: #ff8f00;
+  font-size: 2.3rem;
+  font-weight: bold;
+}
+#top-header {
+  background-color: #ff8f00 !important;
+}
+
+.btn-md-square {
+  width: 44px;
+  height: 44px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-search {
+  color: #ff8f00 !important;
+  border-color: #ff8f00 !important;
+  transition: 0.5s;
+}
+.btn-search:hover {
+  background-color: #ff8f00 !important;
+  color: white !important;
+}
+
+.btn-cart-user {
+  color: #ff8f00 !important;
+  transition: 0.3s;
+}
+.btn-cart-user:hover {
+  opacity: 0.8;
+}
+
+.btn-cart-user i {
+  font-size: 1.5rem;
+}
