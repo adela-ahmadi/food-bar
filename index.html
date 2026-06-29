@@ -60,6 +60,7 @@
       </div>
     </div>
     <!-- Navbar -->
+
     <nav class="navbar sticky-top navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid g-0 px-4 px-lg-5">
         <a class="navbar-brand" href="#">FoodBar</a>
@@ -78,26 +79,24 @@
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="shop.html">Shop</a>
-            </li>
+            <li class="nav-item"><a class="nav-link" href="#">Shop</a></li>
             <li class="nav-item dropdown">
               <a
                 class="nav-link dropdown-toggle"
                 href="#"
                 role="button"
                 data-bs-toggle="dropdown"
-                aria-expanded="false">
-                Pages
-              </a>
+                aria-expanded="false"
+                >Pages</a
+              >
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Cart</a></li>
-                <li><a class="dropdown-item" href="#">Checkout</a></li>
+                <li><a class="dropdown-item" href="card.html">Cart</a></li>
+                <li>
+                  <a class="dropdown-item" href="checkout.html">Checkout</a>
+                </li>
                 <li><a class="dropdown-item" href="#">Testimonial</a></li>
                 <li><hr class="dropdown-divider" /></li>
-                <li>
-                  <a class="dropdown-item" href="#">404 Page</a>
-                </li>
+                <li><a class="dropdown-item" href="404.html">404 Page</a></li>
               </ul>
             </li>
             <li class="nav-item">
@@ -114,7 +113,6 @@
               data-bs-target="#searchModal">
               <i class="fas fa-search"></i>
             </button>
-
             <!-- shop icon -->
             <a
               href="#"
@@ -133,60 +131,61 @@
                 >3</span
               >
             </a>
-
-            <!--  user icon -->
-            <a href="#" class="text-decoration-none btn-cart-user">
-              <i class="fa-solid fa-user fa-2x"></i>
-            </a>
+            <!-- user icon -->
+            <a href="#" class="text-decoration-none btn-cart-user"
+              ><i class="fa-solid fa-user fa-2x"></i
+            ></a>
           </div>
+        </div>
+        <!-- /navbar-collapse -->
+      </div>
+      <!-- /container-fluid -->
+    </nav>
+    <!-- /navbar -->
 
-          <!-- search modal -->
+    <!-- search modal moved here -->
+    <div
+      class="modal fade"
+      id="searchModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog modal-fullscreen">
+        <div
+          class="modal-content rounded-0"
+          style="background: rgba(255, 255, 255, 0.95)">
+          <div class="modal-header border-0">
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"></button>
+          </div>
           <div
-            class="modal fade"
-            id="searchModal"
-            tabindex="-1"
-            aria-labelledby="exampleModalLabel"
-            aria-hidden="true">
-            <div class="modal-dialog modal-fullscreen">
-              <div
-                class="modal-content rounded-0"
-                style="background: rgba(255, 255, 255, 0.95)">
-                <div class="modal-header border-0">
-                  <button
-                    type="button"
-                    class="btn-close"
-                    data-bs-toggle="modal"
-                    data-bs-target="#searchModal"
-                    aria-label="Close"></button>
-                </div>
-                <div
-                  class="modal-body d-flex align-items-center justify-content-center">
-                  <div
-                    class="input-group w-75 mx-auto d-flex"
-                    style="max-width: 600px">
-                    <input
-                      type="search"
-                      class="form-control p-3 border-secondary"
-                      placeholder="Search keywords..."
-                      aria-describedby="search-icon-1" />
-                    <span
-                      id="search-icon-1"
-                      class="input-group-text p-3 border-secondary"
-                      style="
-                        background-color: #ff8f00;
-                        color: white;
-                        cursor: pointer;
-                      ">
-                      <i class="fa fa-search"></i>
-                    </span>
-                  </div>
-                </div>
-              </div>
+            class="modal-body d-flex align-items-center justify-content-center">
+            <div
+              class="input-group w-75 mx-auto d-flex"
+              style="max-width: 600px">
+              <input
+                type="search"
+                class="form-control p-3 border-secondary"
+                placeholder="Search keywords..."
+                aria-describedby="search-icon-1" />
+              <span
+                id="search-icon-1"
+                class="input-group-text p-3 border-secondary"
+                style="
+                  background-color: #ff8f00;
+                  color: white;
+                  cursor: pointer;
+                ">
+                <i class="fa fa-search"></i>
+              </span>
             </div>
           </div>
         </div>
       </div>
-    </nav>
+    </div>
 
     <!-- Hero Section -->
     <div class="hero-section position-relative py-5">
