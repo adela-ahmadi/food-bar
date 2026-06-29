@@ -187,3 +187,14 @@
 .burger-baner {
   background-color: rgb(93, 93, 93);
 }
+
+/* Promo banner */
+
+.hover-white-btn {
+  transition: 0.3s ease;
+}
+.hover-white-btn:hover {
+  background-color: #ffffff !important;
+  border-color: #ffffff !important;
+  color: #ffb21e !important;
+}
