@@ -469,3 +469,21 @@
   border-color: #ff8f00 !important;
   color: white !important;
 }
+
+/* CONTACT PAGE */
+.btn-contact-submit {
+  border: 1px solid #ffcc00;
+  color: #ff8f00;
+  background-color: #ffffff;
+  transition: 0.3s;
+}
+
+.btn-contact-submit:hover {
+  background-color: #ff8f00 !important;
+  border-color: #ff8f00 !important;
+  color: white !important;
+}
+
+.bg-white .text-warning i {
+  color: #ff8f00 !important;
+}
