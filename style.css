@@ -154,3 +154,36 @@
 .product-text {
   color: #ff8f00 !important;
 }
+
+.custom-offer-card {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease;
+}
+
+.custom-offer-card:hover {
+  transform: translateY(-5px);
+}
+
+.offer-img-box {
+  height: 240px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.offer-img-box img {
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.offer-content {
+  position: relative;
+  margin-top: -35px;
+  z-index: 5;
+}
+.burger-baner {
+  background-color: rgb(93, 93, 93);
+}
