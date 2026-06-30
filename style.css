@@ -505,3 +505,10 @@
   border-color: #ff8f00 !important;
   color: white !important;
 }
+
+.tiny-text {
+  font-size: 13px;
+}
+.border-warning-subtle {
+  border-color: #ffcc00 !important;
+}
